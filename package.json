@@ -1,0 +1,17 @@
+{
+  "name": "cvd-legend-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "色觉安全图例校验台 — CVD-safe legend palette validator",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  },
+  "dependencies": {
+    "culori": "^4.0.1",
+    "express": "^4.21.2"
+  }
+}
